@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096F4B1D1B411EA20067A50E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F4B1C1B411EA20067A50E /* main.m */; };
-		096F4B201B411EA20067A50E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F4B1F1B411EA20067A50E /* AppDelegate.m */; };
-		096F4B231B411EA20067A50E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F4B221B411EA20067A50E /* ViewController.m */; };
-		096F4B261B411EA20067A50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096F4B241B411EA20067A50E /* Main.storyboard */; };
-		096F4B281B411EA20067A50E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096F4B271B411EA20067A50E /* Images.xcassets */; };
-		096F4B2B1B411EA20067A50E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096F4B291B411EA20067A50E /* LaunchScreen.xib */; };
-		096F4B371B411EA20067A50E /* DZLoadMoreDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 096F4B361B411EA20067A50E /* DZLoadMoreDemoTests.m */; };
+		093549B31B46AE1200509F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935499E1B46AE1200509F73 /* AppDelegate.m */; };
+		093549B91B46AE1200509F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093549AB1B46AE1200509F73 /* Images.xcassets */; };
+		093549BA1B46AE1200509F73 /* DZLoadMoreDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */; };
+		093549BC1B46AE1200509F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549B21B46AE1200509F73 /* main.m */; };
+		093549C31B46AE4200509F73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093549C11B46AE4200509F73 /* LaunchScreen.xib */; };
+		093549C41B46AE4200509F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093549C21B46AE4200509F73 /* Main.storyboard */; };
+		093549D11B46AFCB00509F73 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549D01B46AFCB00509F73 /* MyObject.m */; };
+		093549DA1B46B2B000509F73 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549D91B46B2B000509F73 /* MyDataSource.m */; };
+		093549E51B46B2E300509F73 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549E41B46B2E300509F73 /* RootNavigationController.m */; };
+		093549E81B46B31500509F73 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549E71B46B31500509F73 /* MyViewController.m */; };
+		093549EB1B46BE5600509F73 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549EA1B46BE5600509F73 /* MyCell.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		096F4B311B411EA20067A50E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 096F4B0F1B411EA20067A50E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 096F4B161B411EA20067A50E;
-			remoteInfo = DZLoadMoreDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0935499D1B46AE1200509F73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DZLoadMoreDemo/AppDelegate.h; sourceTree = "<group>"; };
+		0935499E1B46AE1200509F73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DZLoadMoreDemo/AppDelegate.m; sourceTree = "<group>"; };
+		093549AB1B46AE1200509F73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DZLoadMoreDemo/Images.xcassets; sourceTree = "<group>"; };
+		093549AE1B46AE1200509F73 /* DZLoadMoreDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLoadMoreDataSource.h; sourceTree = "<group>"; };
+		093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLoadMoreDataSource.m; sourceTree = "<group>"; };
+		093549B11B46AE1200509F73 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093549B21B46AE1200509F73 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093549C11B46AE4200509F73 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = DZLoadMoreDemo/LaunchScreen.xib; sourceTree = "<group>"; };
+		093549C21B46AE4200509F73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = DZLoadMoreDemo/Main.storyboard; sourceTree = "<group>"; };
+		093549CF1B46AFCB00509F73 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		093549D01B46AFCB00509F73 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		093549D81B46B2B000509F73 /* MyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSource.h; sourceTree = "<group>"; };
+		093549D91B46B2B000509F73 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSource.m; sourceTree = "<group>"; };
+		093549E31B46B2E300509F73 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		093549E41B46B2E300509F73 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		093549E61B46B31500509F73 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		093549E71B46B31500509F73 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		093549E91B46BE5600509F73 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		093549EA1B46BE5600509F73 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZLoadMoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		096F4B1B1B411EA20067A50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		096F4B1C1B411EA20067A50E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		096F4B1E1B411EA20067A50E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		096F4B1F1B411EA20067A50E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		096F4B211B411EA20067A50E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		096F4B221B411EA20067A50E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		096F4B251B411EA20067A50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		096F4B271B411EA20067A50E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		096F4B2A1B411EA20067A50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		096F4B301B411EA20067A50E /* DZLoadMoreDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZLoadMoreDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		096F4B351B411EA20067A50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		096F4B361B411EA20067A50E /* DZLoadMoreDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZLoadMoreDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,21 +51,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		096F4B2D1B411EA20067A50E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093549A41B46AE1200509F73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				093549CF1B46AFCB00509F73 /* MyObject.h */,
+				093549D01B46AFCB00509F73 /* MyObject.m */,
+				093549D81B46B2B000509F73 /* MyDataSource.h */,
+				093549D91B46B2B000509F73 /* MyDataSource.m */,
+				093549E91B46BE5600509F73 /* MyCell.h */,
+				093549EA1B46BE5600509F73 /* MyCell.m */,
+				093549DB1B46B2D100509F73 /* ViewControllers */,
+			);
+			name = Classes;
+			path = DZLoadMoreDemo/Classes;
+			sourceTree = "<group>";
+		};
+		093549AC1B46AE1200509F73 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				093549AD1B46AE1200509F73 /* DZLoadMore */,
+			);
+			name = Libraries;
+			path = DZLoadMoreDemo/Libraries;
+			sourceTree = "<group>";
+		};
+		093549AD1B46AE1200509F73 /* DZLoadMore */ = {
+			isa = PBXGroup;
+			children = (
+				093549AE1B46AE1200509F73 /* DZLoadMoreDataSource.h */,
+				093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */,
+			);
+			path = DZLoadMore;
+			sourceTree = "<group>";
+		};
+		093549B01B46AE1200509F73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				093549B11B46AE1200509F73 /* Info.plist */,
+				093549B21B46AE1200509F73 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "DZLoadMoreDemo/Supporting Files";
+			sourceTree = "<group>";
+		};
+		093549DB1B46B2D100509F73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				093549E61B46B31500509F73 /* MyViewController.h */,
+				093549E71B46B31500509F73 /* MyViewController.m */,
+				093549E31B46B2E300509F73 /* RootNavigationController.h */,
+				093549E41B46B2E300509F73 /* RootNavigationController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		096F4B0E1B411EA20067A50E = {
 			isa = PBXGroup;
 			children = (
-				096F4B191B411EA20067A50E /* DZLoadMoreDemo */,
-				096F4B331B411EA20067A50E /* DZLoadMoreDemoTests */,
+				0935499D1B46AE1200509F73 /* AppDelegate.h */,
+				0935499E1B46AE1200509F73 /* AppDelegate.m */,
+				093549A41B46AE1200509F73 /* Classes */,
+				093549AB1B46AE1200509F73 /* Images.xcassets */,
+				093549C11B46AE4200509F73 /* LaunchScreen.xib */,
+				093549C21B46AE4200509F73 /* Main.storyboard */,
+				093549AC1B46AE1200509F73 /* Libraries */,
+				093549B01B46AE1200509F73 /* Supporting Files */,
 				096F4B181B411EA20067A50E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,50 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */,
-				096F4B301B411EA20067A50E /* DZLoadMoreDemoTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		096F4B191B411EA20067A50E /* DZLoadMoreDemo */ = {
-			isa = PBXGroup;
-			children = (
-				096F4B1E1B411EA20067A50E /* AppDelegate.h */,
-				096F4B1F1B411EA20067A50E /* AppDelegate.m */,
-				096F4B211B411EA20067A50E /* ViewController.h */,
-				096F4B221B411EA20067A50E /* ViewController.m */,
-				096F4B241B411EA20067A50E /* Main.storyboard */,
-				096F4B271B411EA20067A50E /* Images.xcassets */,
-				096F4B291B411EA20067A50E /* LaunchScreen.xib */,
-				096F4B1A1B411EA20067A50E /* Supporting Files */,
-			);
-			path = DZLoadMoreDemo;
-			sourceTree = "<group>";
-		};
-		096F4B1A1B411EA20067A50E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				096F4B1B1B411EA20067A50E /* Info.plist */,
-				096F4B1C1B411EA20067A50E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		096F4B331B411EA20067A50E /* DZLoadMoreDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				096F4B361B411EA20067A50E /* DZLoadMoreDemoTests.m */,
-				096F4B341B411EA20067A50E /* Supporting Files */,
-			);
-			path = DZLoadMoreDemoTests;
-			sourceTree = "<group>";
-		};
-		096F4B341B411EA20067A50E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				096F4B351B411EA20067A50E /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,24 +151,6 @@
 			productReference = 096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		096F4B2F1B411EA20067A50E /* DZLoadMoreDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 096F4B3D1B411EA20067A50E /* Build configuration list for PBXNativeTarget "DZLoadMoreDemoTests" */;
-			buildPhases = (
-				096F4B2C1B411EA20067A50E /* Sources */,
-				096F4B2D1B411EA20067A50E /* Frameworks */,
-				096F4B2E1B411EA20067A50E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				096F4B321B411EA20067A50E /* PBXTargetDependency */,
-			);
-			name = DZLoadMoreDemoTests;
-			productName = DZLoadMoreDemoTests;
-			productReference = 096F4B301B411EA20067A50E /* DZLoadMoreDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +162,6 @@
 				TargetAttributes = {
 					096F4B161B411EA20067A50E = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					096F4B2F1B411EA20067A50E = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 096F4B161B411EA20067A50E;
 					};
 				};
 			};
@@ -189,7 +179,6 @@
 			projectRoot = "";
 			targets = (
 				096F4B161B411EA20067A50E /* DZLoadMoreDemo */,
-				096F4B2F1B411EA20067A50E /* DZLoadMoreDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,16 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096F4B261B411EA20067A50E /* Main.storyboard in Resources */,
-				096F4B2B1B411EA20067A50E /* LaunchScreen.xib in Resources */,
-				096F4B281B411EA20067A50E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		096F4B2E1B411EA20067A50E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				093549C31B46AE4200509F73 /* LaunchScreen.xib in Resources */,
+				093549B91B46AE1200509F73 /* Images.xcassets in Resources */,
+				093549C41B46AE4200509F73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,48 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				096F4B231B411EA20067A50E /* ViewController.m in Sources */,
-				096F4B201B411EA20067A50E /* AppDelegate.m in Sources */,
-				096F4B1D1B411EA20067A50E /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		096F4B2C1B411EA20067A50E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				096F4B371B411EA20067A50E /* DZLoadMoreDemoTests.m in Sources */,
+				093549DA1B46B2B000509F73 /* MyDataSource.m in Sources */,
+				093549EB1B46BE5600509F73 /* MyCell.m in Sources */,
+				093549B31B46AE1200509F73 /* AppDelegate.m in Sources */,
+				093549E51B46B2E300509F73 /* RootNavigationController.m in Sources */,
+				093549D11B46AFCB00509F73 /* MyObject.m in Sources */,
+				093549E81B46B31500509F73 /* MyViewController.m in Sources */,
+				093549BA1B46AE1200509F73 /* DZLoadMoreDataSource.m in Sources */,
+				093549BC1B46AE1200509F73 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		096F4B321B411EA20067A50E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 096F4B161B411EA20067A50E /* DZLoadMoreDemo */;
-			targetProxy = 096F4B311B411EA20067A50E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		096F4B241B411EA20067A50E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				096F4B251B411EA20067A50E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		096F4B291B411EA20067A50E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				096F4B2A1B411EA20067A50E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		096F4B381B411EA20067A50E /* Debug */ = {
@@ -349,9 +301,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DZLoadMoreDemo/Info.plist;
+				INFOPLIST_FILE = "DZLoadMoreDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,43 +313,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = DZLoadMoreDemo/Info.plist;
+				INFOPLIST_FILE = "DZLoadMoreDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		096F4B3E1B411EA20067A50E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DZLoadMoreDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZLoadMoreDemo.app/DZLoadMoreDemo";
-			};
-			name = Debug;
-		};
-		096F4B3F1B411EA20067A50E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DZLoadMoreDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZLoadMoreDemo.app/DZLoadMoreDemo";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -418,14 +340,7 @@
 				096F4B3C1B411EA20067A50E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		096F4B3D1B411EA20067A50E /* Build configuration list for PBXNativeTarget "DZLoadMoreDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				096F4B3E1B411EA20067A50E /* Debug */,
-				096F4B3F1B411EA20067A50E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
