@@ -20,20 +20,17 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
     }
     ...
 }
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     CGFloat height = [super tableView:tableView heightForRowAtIndexPath:indexPath];
     if (height == NSNotFound) {
         // Your tableView:heightForRowAtIndexPath: implementation
     }
     return height;
-}
-```
+}``` 
 4. In your ViewController subclass: setup and set your UITableView's dataSource property with your newly created class's object.
 ```objective-c
 self.dataSource = [[MyDataSource alloc] init];
-self.tableView.dataSource = self.dataSource;
-```
+self.tableView.dataSource = self.dataSource;```
 5. If you need **load more** functionality: set `loadMoreItemsBlock` property for your dataSource.
 ```objective-c
 __weak typeof(self) weakSelf = self;
@@ -44,8 +41,7 @@ self.dataSource.loadMoreItemsBlock = ^(id lastItem, BOOLCallback block) {
         block(noMoreItems); // You should invoke this block after you've updated your dataSource with new values
         [weakSelf.tableView reloadData];
     }];
-};
-```
+};```
 6. If you need **pull-to-refresh** functionality: set `refreshContentBlock` property for your dataSource and setup your UITableViewController's `refreshControl` property with your dataSource as target and `-refreshContent` selector.
 ```objective-c
 self.refreshControl = [[UIRefreshControl alloc] init];
@@ -58,14 +54,12 @@ self.dataSource.refreshContentBlock = ^(BOOLCallback block) {
         block(noMoreItems); // You should invoke this block after you've updated your dataSource with new values
         [weakSelf.tableView reloadData];
     }];
-};
-```
+};```
 
 ## Installation
 
 ```sh
-pod 'ZDLoadMore'
-```
+pod 'ZDLoadMore'```
 
 ##License
 
