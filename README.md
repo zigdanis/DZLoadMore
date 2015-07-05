@@ -4,8 +4,8 @@ Infinity scrolling for Loading More items on UITableView with build-in Pull-to-R
 I've getting tyred of adding load more and pull-to-refresh functionality to every project that I'm working on. So I decided to move my code to one single class with 2 nice blocks that will handle loading and refreshing items in the tableview. Also this will help me to stop implementing table's datasource and delegate in single UIViewController subclass.
 
 ##Screenshots
-<img src=http://i.imgur.com/zQEjGhF.png> 
-<img src=http://i.imgur.com/nbWyMH2.png>
+<img src=http://i.imgur.com/zQEjGhFl.png> 
+<img src=http://i.imgur.com/nbWyMH2l.png>
 
 ##Usage
 
