@@ -41,6 +41,7 @@
 		093549E91B46BE5600509F73 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		093549EA1B46BE5600509F73 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZLoadMoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EE948A1B49B0540055E199 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +112,7 @@
 		096F4B0E1B411EA20067A50E = {
 			isa = PBXGroup;
 			children = (
+				09EE948A1B49B0540055E199 /* README.md */,
 				0935499D1B46AE1200509F73 /* AppDelegate.h */,
 				0935499E1B46AE1200509F73 /* AppDelegate.m */,
 				093549A41B46AE1200509F73 /* Classes */,
