@@ -26,7 +26,9 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
         // Your tableView:heightForRowAtIndexPath: implementation
     }
     return height;
-} ``` 
+}
+```objective-c
+
 4. In your ViewController subclass: setup and set your UITableView's dataSource property with your newly created class's object.
 ```objective-c
 self.dataSource = [[MyDataSource alloc] init];
