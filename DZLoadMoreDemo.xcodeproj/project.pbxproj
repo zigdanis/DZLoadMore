@@ -9,39 +9,41 @@
 /* Begin PBXBuildFile section */
 		093549B31B46AE1200509F73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935499E1B46AE1200509F73 /* AppDelegate.m */; };
 		093549B91B46AE1200509F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093549AB1B46AE1200509F73 /* Images.xcassets */; };
-		093549BA1B46AE1200509F73 /* DZLoadMoreDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */; };
 		093549BC1B46AE1200509F73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549B21B46AE1200509F73 /* main.m */; };
 		093549C31B46AE4200509F73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093549C11B46AE4200509F73 /* LaunchScreen.xib */; };
 		093549C41B46AE4200509F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093549C21B46AE4200509F73 /* Main.storyboard */; };
-		093549D11B46AFCB00509F73 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549D01B46AFCB00509F73 /* MyObject.m */; };
-		093549DA1B46B2B000509F73 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549D91B46B2B000509F73 /* MyDataSource.m */; };
-		093549E51B46B2E300509F73 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549E41B46B2E300509F73 /* RootNavigationController.m */; };
-		093549E81B46B31500509F73 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549E71B46B31500509F73 /* MyViewController.m */; };
-		093549EB1B46BE5600509F73 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093549EA1B46BE5600509F73 /* MyCell.m */; };
+		09EE949B1B4A79960055E199 /* DZLoadMoreDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE948E1B4A79960055E199 /* DZLoadMoreDataSource.m */; };
+		09EE949C1B4A79960055E199 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE94911B4A79960055E199 /* MyCell.m */; };
+		09EE949D1B4A79960055E199 /* MyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE94931B4A79960055E199 /* MyDataSource.m */; };
+		09EE949E1B4A79960055E199 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE94951B4A79960055E199 /* MyObject.m */; };
+		09EE949F1B4A79960055E199 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE94981B4A79960055E199 /* MyViewController.m */; };
+		09EE94A01B4A79960055E199 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE949A1B4A79960055E199 /* RootNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0935499D1B46AE1200509F73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DZLoadMoreDemo/AppDelegate.h; sourceTree = "<group>"; };
 		0935499E1B46AE1200509F73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DZLoadMoreDemo/AppDelegate.m; sourceTree = "<group>"; };
 		093549AB1B46AE1200509F73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DZLoadMoreDemo/Images.xcassets; sourceTree = "<group>"; };
-		093549AE1B46AE1200509F73 /* DZLoadMoreDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLoadMoreDataSource.h; sourceTree = "<group>"; };
-		093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLoadMoreDataSource.m; sourceTree = "<group>"; };
 		093549B11B46AE1200509F73 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093549B21B46AE1200509F73 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		093549C11B46AE4200509F73 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = DZLoadMoreDemo/LaunchScreen.xib; sourceTree = "<group>"; };
 		093549C21B46AE4200509F73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = DZLoadMoreDemo/Main.storyboard; sourceTree = "<group>"; };
-		093549CF1B46AFCB00509F73 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
-		093549D01B46AFCB00509F73 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
-		093549D81B46B2B000509F73 /* MyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSource.h; sourceTree = "<group>"; };
-		093549D91B46B2B000509F73 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSource.m; sourceTree = "<group>"; };
-		093549E31B46B2E300509F73 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
-		093549E41B46B2E300509F73 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
-		093549E61B46B31500509F73 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		093549E71B46B31500509F73 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		093549E91B46BE5600509F73 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
-		093549EA1B46BE5600509F73 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZLoadMoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09EE948A1B49B0540055E199 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09EE948B1B4A79420055E199 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09EE948D1B4A79960055E199 /* DZLoadMoreDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZLoadMoreDataSource.h; sourceTree = "<group>"; };
+		09EE948E1B4A79960055E199 /* DZLoadMoreDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZLoadMoreDataSource.m; sourceTree = "<group>"; };
+		09EE94901B4A79960055E199 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		09EE94911B4A79960055E199 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		09EE94921B4A79960055E199 /* MyDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSource.h; sourceTree = "<group>"; };
+		09EE94931B4A79960055E199 /* MyDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSource.m; sourceTree = "<group>"; };
+		09EE94941B4A79960055E199 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		09EE94951B4A79960055E199 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		09EE94971B4A79960055E199 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		09EE94981B4A79960055E199 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		09EE94991B4A79960055E199 /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		09EE949A1B4A79960055E199 /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		09EE94A11B4A7A090055E199 /* DZLoadMore.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DZLoadMore.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,39 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		093549A41B46AE1200509F73 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				093549CF1B46AFCB00509F73 /* MyObject.h */,
-				093549D01B46AFCB00509F73 /* MyObject.m */,
-				093549D81B46B2B000509F73 /* MyDataSource.h */,
-				093549D91B46B2B000509F73 /* MyDataSource.m */,
-				093549E91B46BE5600509F73 /* MyCell.h */,
-				093549EA1B46BE5600509F73 /* MyCell.m */,
-				093549DB1B46B2D100509F73 /* ViewControllers */,
-			);
-			name = Classes;
-			path = DZLoadMoreDemo/Classes;
-			sourceTree = "<group>";
-		};
-		093549AC1B46AE1200509F73 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				093549AD1B46AE1200509F73 /* DZLoadMore */,
-			);
-			name = Libraries;
-			path = DZLoadMoreDemo/Libraries;
-			sourceTree = "<group>";
-		};
-		093549AD1B46AE1200509F73 /* DZLoadMore */ = {
-			isa = PBXGroup;
-			children = (
-				093549AE1B46AE1200509F73 /* DZLoadMoreDataSource.h */,
-				093549AF1B46AE1200509F73 /* DZLoadMoreDataSource.m */,
-			);
-			path = DZLoadMore;
-			sourceTree = "<group>";
-		};
 		093549B01B46AE1200509F73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,30 +67,21 @@
 			path = "DZLoadMoreDemo/Supporting Files";
 			sourceTree = "<group>";
 		};
-		093549DB1B46B2D100509F73 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				093549E61B46B31500509F73 /* MyViewController.h */,
-				093549E71B46B31500509F73 /* MyViewController.m */,
-				093549E31B46B2E300509F73 /* RootNavigationController.h */,
-				093549E41B46B2E300509F73 /* RootNavigationController.m */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		096F4B0E1B411EA20067A50E = {
 			isa = PBXGroup;
 			children = (
-				09EE948A1B49B0540055E199 /* README.md */,
 				0935499D1B46AE1200509F73 /* AppDelegate.h */,
 				0935499E1B46AE1200509F73 /* AppDelegate.m */,
-				093549A41B46AE1200509F73 /* Classes */,
+				09EE948C1B4A79960055E199 /* DZLoadMore */,
+				09EE948F1B4A79960055E199 /* Example */,
 				093549AB1B46AE1200509F73 /* Images.xcassets */,
 				093549C11B46AE4200509F73 /* LaunchScreen.xib */,
 				093549C21B46AE4200509F73 /* Main.storyboard */,
-				093549AC1B46AE1200509F73 /* Libraries */,
 				093549B01B46AE1200509F73 /* Supporting Files */,
 				096F4B181B411EA20067A50E /* Products */,
+				09EE948A1B49B0540055E199 /* README.md */,
+				09EE948B1B4A79420055E199 /* LICENSE */,
+				09EE94A11B4A7A090055E199 /* DZLoadMore.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +91,42 @@
 				096F4B171B411EA20067A50E /* DZLoadMoreDemo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		09EE948C1B4A79960055E199 /* DZLoadMore */ = {
+			isa = PBXGroup;
+			children = (
+				09EE948D1B4A79960055E199 /* DZLoadMoreDataSource.h */,
+				09EE948E1B4A79960055E199 /* DZLoadMoreDataSource.m */,
+			);
+			name = DZLoadMore;
+			path = DZLoadMoreDemo/DZLoadMore;
+			sourceTree = "<group>";
+		};
+		09EE948F1B4A79960055E199 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				09EE94901B4A79960055E199 /* MyCell.h */,
+				09EE94911B4A79960055E199 /* MyCell.m */,
+				09EE94921B4A79960055E199 /* MyDataSource.h */,
+				09EE94931B4A79960055E199 /* MyDataSource.m */,
+				09EE94941B4A79960055E199 /* MyObject.h */,
+				09EE94951B4A79960055E199 /* MyObject.m */,
+				09EE94961B4A79960055E199 /* ViewControllers */,
+			);
+			name = Example;
+			path = DZLoadMoreDemo/Example;
+			sourceTree = "<group>";
+		};
+		09EE94961B4A79960055E199 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09EE94971B4A79960055E199 /* MyViewController.h */,
+				09EE94981B4A79960055E199 /* MyViewController.m */,
+				09EE94991B4A79960055E199 /* RootNavigationController.h */,
+				09EE949A1B4A79960055E199 /* RootNavigationController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,14 +199,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				093549DA1B46B2B000509F73 /* MyDataSource.m in Sources */,
-				093549EB1B46BE5600509F73 /* MyCell.m in Sources */,
+				09EE949B1B4A79960055E199 /* DZLoadMoreDataSource.m in Sources */,
+				09EE949C1B4A79960055E199 /* MyCell.m in Sources */,
+				09EE949E1B4A79960055E199 /* MyObject.m in Sources */,
 				093549B31B46AE1200509F73 /* AppDelegate.m in Sources */,
-				093549E51B46B2E300509F73 /* RootNavigationController.m in Sources */,
-				093549D11B46AFCB00509F73 /* MyObject.m in Sources */,
-				093549E81B46B31500509F73 /* MyViewController.m in Sources */,
-				093549BA1B46AE1200509F73 /* DZLoadMoreDataSource.m in Sources */,
+				09EE949D1B4A79960055E199 /* MyDataSource.m in Sources */,
+				09EE94A01B4A79960055E199 /* RootNavigationController.m in Sources */,
 				093549BC1B46AE1200509F73 /* main.m in Sources */,
+				09EE949F1B4A79960055E199 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
