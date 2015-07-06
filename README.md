@@ -12,7 +12,8 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
 1. Subclass `DZLoadMore` class
 2. Implement `-(NSArray *)items` method. You should return your UITableView's model items array on this method.
 3. Add UITableView data source protocol methods as below:
-```objective-c
+
+    ```objective-c
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [super tableView:tableView cellForRowAtIndexPath:indexPath];
     if (!cell) {
@@ -27,14 +28,18 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
     }
     return height;
 }
-``` 
-    4. In your ViewController subclass: setup and set your UITableView's dataSource property with your newly created class's object.
-```objective-c
+    ``` 
+
+4. In your ViewController subclass: setup and set your UITableView's dataSource property with your newly created class's object.
+
+    ```objective-c
 self.dataSource = [[MyDataSource alloc] init];
 self.tableView.dataSource = self.dataSource;
-```
-    5. If you need **load more** functionality: set `loadMoreItemsBlock` property for your dataSource.
-```objective-c
+    ```
+    
+5. If you need **load more** functionality: set `loadMoreItemsBlock` property for your dataSource.
+
+    ```objective-c
 __weak typeof(self) weakSelf = self;
 self.dataSource.loadMoreItemsBlock = ^(id lastItem, BOOLCallback block) {
     MyObject *object = (MyObject *)lastItem;
@@ -44,9 +49,11 @@ self.dataSource.loadMoreItemsBlock = ^(id lastItem, BOOLCallback block) {
         [weakSelf.tableView reloadData];
     }];
 };
-```
-    6. If you need **pull-to-refresh** functionality: set `refreshContentBlock` property for your dataSource and setup your UITableViewController's `refreshControl` property with your dataSource as target and `-refreshContent` selector.
-```objective-c
+    ```
+    
+6. If you need **pull-to-refresh** functionality: set `refreshContentBlock` property for your dataSource and setup your UITableViewController's `refreshControl` property with your dataSource as target and `-refreshContent` selector.
+    
+    ```objective-c
 self.refreshControl = [[UIRefreshControl alloc] init];
 [self.refreshControl addTarget:self.dataSource action:@selector(refreshContent) forControlEvents:UIControlEventValueChanged];
 __weak typeof(self) weakSelf = self;
@@ -58,7 +65,7 @@ self.dataSource.refreshContentBlock = ^(BOOLCallback block) {
         [weakSelf.tableView reloadData];
     }];
 };
-```
+    ```
 
 ## Installation
 
