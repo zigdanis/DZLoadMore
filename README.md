@@ -70,7 +70,7 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
 ## Installation
 
 ```sh
-pod 'ZDLoadMore'
+pod 'DZLoadMore'
 ```
 
 ##License
