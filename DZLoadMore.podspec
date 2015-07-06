@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "DZLoadMore"
-  s.version          = "0.1"
+  s.version          = "0.1.1"
   s.summary          = "Load More and Pull-to-Refresh functionality for your UITableViewController"
   s.description      = <<-DESC
     This class helps to add "Load more" and "Pull-to-refresh" functionality to your table-based controller. It is block based data source class that should be subclassed and used as UITableView's dataSource"
