@@ -9,7 +9,7 @@ I've getting tyred of adding load more and pull-to-refresh functionality to ever
 
 ##Usage
 
-1. Subclass `DZLoadMore` class
+1. Subclass `DZLoadMoreDataSource` class
 2. Implement `-(NSArray *)items` method. You should return your UITableView's model items array on this method.
 3. Add UITableView data source protocol methods as below:
 
